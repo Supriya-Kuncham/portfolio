@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Supriya Portfolio</title>
+
+   <style>
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    body {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        background: #f4f7fb;
+        color: #333;
+        line-height: 1.6;
+        overflow-x: hidden; /* Prevents horizontal scrolling */
+    }
+
+    header {
+        background: linear-gradient(135deg, #4b6cb7, #182848);
+        color: white;
+        text-align: center;
+        padding: 40px 20px;
+    }
+
+    /* Fixed image sizing to fit better */
+    header img {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        border: 4px solid white;
+        margin-top: 15px;
+        object-fit: cover;
+    }
+
+    h1 {
+        font-size: clamp(1.8rem, 5vw, 2.5rem); /* Responsive font size */
+        margin-bottom: 10px;
+    }
+
+    .container {
+        width: 90%;
+        max-width: 1000px; /* Limits width on large monitors */
+        margin: 20px auto;
+    }
+
+    section {
+        background: white;
+        margin-bottom: 20px;
+        padding: 20px;
+        border-radius: 12px;
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+        transition: 0.3s;
+    }
+
+    section:hover {
+        transform: translateY(-3px);
+    }
+
+    h2 {
+        color: #2c3e50;
+        margin-bottom: 12px;
+        border-bottom: 2px solid #4b6cb7;
+        display: inline-block;
+        font-size: 1.4rem;
+    }
+
+    ul {
+        margin-left: 20px;
+    }
+
+    li {
+        margin-bottom: 8px;
+    }
+
+    .skills {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+        margin-top: 10px;
+    }
+
+    .skill-box {
+        background: #4b6cb7;
+        color: white;
+        padding: 6px 12px;
+        border-radius: 15px;
+        font-size: 13px;
+    }
+
+    footer {
+        text-align: center;
+        background: #182848;
+        color: white;
+        padding: 15px;
+        font-size: 0.9rem;
+    }
+
+    /* Mobile adjustments */
+    @media (max-width: 600px) {
+        .container {
+            width: 95%;
+        }
+        header img {
+            width: 120px;
+            height: 120px;
+        }
+        section {
+            padding: 15px;
+        }
+    }
+</style>
+
+</head>
+
+<body>
+
+    <header>
+        <h1>K. V. V. Supriya</h1>
+        <p>Aspiring Full Stack Developer | AIML Student | Cloud & DevOps Learner</p>
+        <img src="passport photo.jpg" alt="Profile Photo">
+    </header>
+
+    <div class="container">
+
+        <section>
+            <h2>Education</h2>
+            <ul>
+                <li><b>10th Class:</b> 10 CGPA</li>
+                <li><b>Intermediate:</b> 93.8%</li>
+                <li><b>B.Tech:</b> 8.9 CGPA</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+
+            <div class="skills">
+                <div class="skill-box">HTML</div>
+                <div class="skill-box">CSS</div>
+                <div class="skill-box">JavaScript</div>
+                <div class="skill-box">Node.js</div>
+                <div class="skill-box">MySQL</div>
+                <div class="skill-box">Java</div>
+                <div class="skill-box">Python</div>
+                <div class="skill-box">C</div>
+                <div class="skill-box">AWS</div>
+                <div class="skill-box">DevOps</div>
+                <div class="skill-box">GitHub</div>
+            </div>
+        </section>
+
+        <section>
+            <h2>Projects</h2>
+            <ul>
+                <li>Object Detection</li>
+                <li>Language Translator</li>
+                <li>Portfolio Website Hosted on AWS EC2 using IIS</li>
+                <li>Rule-based chatbot</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Certifications</h2>
+            <ul>
+                <li>Apna College Sigma 7.0 Web Development Certificate</li>
+                <li>Apna College DSA Certificate</li>
+                <li>Code Alpha AI Internship Certificate</li>
+                <li>IBM SkillsBuild Badge - Getting Started with AI</li>
+                <li>NPTEL Certificate - AI in Product Management</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Achievements</h2>
+            <ul>
+                <li>Won 2nd Prize in Model Presentation</li>
+                <li>Successfully deployed website on AWS Windows Server using IIS</li>
+                <li>Built and hosted portfolio website publicly on cloud</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Hobbies</h2>
+            <ul>
+                <li>Painting</li>
+                <li>Craft Making</li>
+                <li>Listening to Songs</li>
+            </ul>
+        </section>
+
+        <section>
+            <h2>Contact Me</h2>
+            <ul>
+                <li>Email: kunchamvarahavenkatasupriya@gmail.com</li>
+                <li><a href="https://www.linkedin.com/in/k-v-v-supriya-b0b990322/" target="_blank">LinkedIn Profile</a></li>
+                <li><a href="https://github.com/Supriya-Kuncham" target="_blank">GitHub Profile</a></li>
+
+            </ul>
+        </section>
+
+    </div>
+
+    <footer>
+        <p>Made with ❤️ by K. V. V. Supriya</p>
+    </footer>
+
+</body>
+</html>
